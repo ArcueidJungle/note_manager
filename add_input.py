@@ -8,6 +8,6 @@ print("Имя пользователя: " + username)
 print("Заголовок заметки: " + title)
 print("Описание заметки: " + content)
 print("Cтатус заметки: " + status)
-print("Дата создания: " + created_date)
-print("Дата истечения заметки: " + issue_date )
+print("Дата создания: " + created_date[0:5])
+print("Дата истечения заметки: " + issue_date[0:5] )
 
