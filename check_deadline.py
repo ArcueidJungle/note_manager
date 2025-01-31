@@ -30,3 +30,4 @@ def calculating_day_dif(issue_date):
 issue_day = get_issue_date()
 result = calculating_day_dif(issue_day)
 print(result)
+#пиздец
