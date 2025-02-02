@@ -20,7 +20,7 @@ def main():
     try:
         first = float(input('Введите первое число'))
         second = float(input('Введите второе число'))
-    except:
+    except ValueError:
         print('Некорректное значение')
     operation = input('Введите операцию (+, -, *, /):')
 
